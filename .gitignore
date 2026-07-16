@@ -1,0 +1,64 @@
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets
+secrets.json
+credentials.json
+
+# LangChain / AI
+langsmith.env
+
+# Misc
+*.bak
+*.swp
