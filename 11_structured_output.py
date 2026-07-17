@@ -1,4 +1,6 @@
 # 11_structured_output.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from pydantic import BaseModel, Field
 from typing import Literal
 from langchain_google_genai import ChatGoogleGenerativeAI

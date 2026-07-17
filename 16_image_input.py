@@ -1,4 +1,6 @@
 # 16_image_input.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 import base64
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage

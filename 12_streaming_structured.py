@@ -1,4 +1,6 @@
 # 12_streaming_structured.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import BaseModel
 

@@ -1,4 +1,6 @@
 # 14_google_search_grounding.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash")

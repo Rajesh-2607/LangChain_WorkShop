@@ -1,4 +1,6 @@
 # 19_embeddings.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 # gemini-embedding-001 is the current stable, text-only embedding model

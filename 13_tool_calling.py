@@ -1,4 +1,6 @@
 # 13_tool_calling.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI

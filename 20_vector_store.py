@@ -1,4 +1,6 @@
 # 20_vector_store.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_core.vectorstores import InMemoryVectorStore
 

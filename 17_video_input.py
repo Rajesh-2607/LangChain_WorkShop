@@ -1,4 +1,6 @@
 # 17_video_input.py
+from config import load_dotenv  # noqa (or copy the 3 lines below directly)
+
 from google import genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
